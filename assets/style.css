@@ -5,8 +5,9 @@
     background-color: #eee;
     border: 2px solid #000;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 400px 2fr;
     grid-template-rows: 100px 150px 100px;
+    grid-gap:20px ;
 }
 
 .items {
