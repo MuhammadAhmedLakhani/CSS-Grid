@@ -2,11 +2,12 @@
 .container {
     margin: 100px 0 0 50px;
     width: 1000px;
+    height: 400px;
     background-color: #eee;
     border: 2px solid #000;
     display: grid;
     grid-template-columns: repeat(2,225px) 50%;
-    grid-template-rows: 100px 150px 100px;
+    grid-template-rows:1fr 100px;
     grid-gap:20px ;
 }
 
