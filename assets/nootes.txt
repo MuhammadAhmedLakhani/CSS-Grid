@@ -9,4 +9,4 @@
 *basically grid allows  2 dimentional ontrol and both flex and grid has different usecases
 *use can use fr as well instead of auto
 *fr stands for friction which basicaly divides the available space into equal parts
-
+*different columns can have the different fr like 2fr value which means basically twice of a equal fraction divided from  total avialable space
