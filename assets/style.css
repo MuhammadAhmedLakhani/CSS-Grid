@@ -9,26 +9,15 @@
     height: 100vh;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2,100px);
 }
 
 .bachay {
-    width: 100%;
+    width: 100px;
     height: 100px;
     border: 2px solid black;
 }
-.one{
-    background-color: aquamarine;
-}
-
-.two {
-    background-color: orange;
-}
-.three {
-    background-color: yellow;
-}
-
-
 
 
 /* #one{

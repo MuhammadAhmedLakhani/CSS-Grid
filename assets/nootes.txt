@@ -15,3 +15,7 @@
 * repeat function takes repeat time and vaue as its 2 parameters
 *repeat function use for avoi writing auto or 1fr for evey column creation
 
+---more child than rows
+
+*in this example children are more than the row column defined so remaining chil will be independent of the sizs we defined for rows ad columns
+
