@@ -10,3 +10,8 @@
 *use can use fr as well instead of auto
 *fr stands for friction which basicaly divides the available space into equal parts
 *different columns can have the different fr like 2fr value which means basically twice of a equal fraction divided from  total avialable space
+
+-----repeat function
+* repeat function takes repeat time and vaue as its 2 parameters
+*repeat function use for avoi writing auto or 1fr for evey column creation
+
