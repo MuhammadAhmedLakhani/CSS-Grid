@@ -5,3 +5,8 @@
 *this proves that the width is present still 300 but another column is hiding it by its own bgcolor respectively
 
 *you can also set row size with grid-template-row peoperty as well
+
+*basically grid allows  2 dimentional ontrol and both flex and grid has different usecases
+*use can use fr as well instead of auto
+*fr stands for friction which basicaly divides the available space into equal parts
+
