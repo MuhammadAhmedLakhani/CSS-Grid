@@ -3,3 +3,5 @@
 *grid-template-column and width are independent properties in  grid
 *it means that setting the column width to 300px and grid-template-column to 250px will result in the next column being starting after 250px (see demo)
 *this proves that the width is present still 300 but another column is hiding it by its own bgcolor respectively
+
+*you can also set row size with grid-template-row peoperty as well
