@@ -1,5 +1,10 @@
 ===============
 
+*bydefault grid has column direction 
+*grid-templates-column allows us ti decide how many column we want
+*while grid-template-rows allos you to decid height of rows and no of rows
+*if you restrict row and column to 2 andthere are 10 chils so remaining 6 will be independent of grid and wil adjust their heihg of rows automatically and equally
+
 *grid-template-column and width are independent properties in  grid
 *it means that setting the column width to 300px and grid-template-column to 250px will result in the next column being starting after 250px (see demo)
 *this proves that the width is present still 300 but another column is hiding it by its own bgcolor respectively
