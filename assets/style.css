@@ -16,3 +16,18 @@
 .bachay {
     border: 2px solid red;
 }
+
+
+@media screen and (max-width:1000px) {
+
+    .pappa {
+        grid-template-columns:1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .pappa {
+        grid-template-columns:1fr;
+    }
+}
