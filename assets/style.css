@@ -17,10 +17,9 @@ body {
     height: 80vh;
     border: 10px solid #000;
     display: grid;
-    /* grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(8, 1fr); */
-    grid-template-areas: 'Ahmed Ahmed Ahmed';
-
+    /* grid-template-columns: repeat(3, auto); */
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: 'Hammad Hammad Hammad Ahmed Maliha Saad Saad ';
 }
 
 .bachay {
@@ -31,32 +30,19 @@ body {
     border: 2px solid blue;
 }
 
-#four {
-    grid-column-start: 1;
-    grid-column-end: 3
-}
-
-#eigth {
-    grid-column-start: 3;
-    grid-row-start: 4;
-    grid-row-end: 6
-}
 
 #one {
-    grid-column: 1 / span 3;
-    grid-area:Ahmed;
+    grid-area:Hammad;
 }
 
 #two {
-    grid-column:1 / span 2
-    
+    grid-area: Ahmed;
 }
 
-#two,
-#three {
-    grid-row:2 / span 2;
+#three{
+    grid-area: Maliha;
 }
 
-#seven {
-    grid-row:6 / span 3;
+#four {
+    grid-area: Saad;
 }
