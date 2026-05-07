@@ -19,7 +19,7 @@ body {
     display: grid;
     /* grid-template-columns: repeat(3, auto); */
     /* grid-template-rows: repeat(8, 1fr); */
-    grid-template-areas: 'Hammad Hammad Ahmed Ahmed Saad saad . .';
+    grid-template-areas: 'Sufyan Jawwad Jawwad Usman . .' 'Sufyan . . . . . ';
 }
 
 .bachay {
@@ -32,14 +32,14 @@ body {
 
 
 #one {
-    grid-area:Hammad;
+    grid-area:Sufyan;
 }
 
 #two {
-    grid-area: Ahmed;
+    grid-area:Jawwad;
 }
 
 
 #three {
-    grid-area: Saad;
+    grid-area: Usman;
 }
