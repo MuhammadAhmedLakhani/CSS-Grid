@@ -53,3 +53,11 @@ if you give the column  the  row-start/end  there is  issue that it will suppose
 *instead you can do is to define how many intems this will cover including itself(including is important word here)
 
 -changing both horizontal and vertical by shorthand mthod
+
+-------------------------- Grid Area ---------------------------------------
+
+*You can specify area of grid using grid area property like of your name (its like giving name to a newborn child)
+
+*Now its time to utilize the area name in grid templte areas propert
+
+*Like hrere you define the area Ahmed 3 times which means that you deined 3 columns with ahmed spanning three column width
