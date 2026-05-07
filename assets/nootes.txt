@@ -61,3 +61,7 @@ if you give the column  the  row-start/end  there is  issue that it will suppose
 *Now its time to utilize the area name in grid templte areas propert
 
 *Like hrere you define the area Ahmed 3 times which means that you deined 3 columns with ahmed spanning three column width
+
+----Dots:
+
+You can place dots that means that later remaiing elements wil auomatically comes in first row as additional columns

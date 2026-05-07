@@ -18,8 +18,8 @@ body {
     border: 10px solid #000;
     display: grid;
     /* grid-template-columns: repeat(3, auto); */
-    grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: 'Ahmed Hammad Hammad Hammad Saad Saad Saad Saad Saad';
+    /* grid-template-rows: repeat(8, 1fr); */
+    grid-template-areas: 'Hammad Hammad Ahmed Ahmed Saad saad . .';
 }
 
 .bachay {
@@ -40,6 +40,6 @@ body {
 }
 
 
-#four {
+#three {
     grid-area: Saad;
 }
