@@ -9,9 +9,10 @@
     height: 100vh;
     border: 2px solid #000;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:100px 100px 100px;
     grid-template-rows: repeat(4,100px); 
     row-gap: 20px;
+    justify-content: space-between;
 }
 .bachay {
     border: 2px solid red;

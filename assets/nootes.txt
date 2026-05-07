@@ -24,3 +24,8 @@
 
 *in this example children are more than the row column defined so remaining chil will be independent of the sizs we defined for rows ad columns
 
+--------------- alignment horizontal and vertical----------------
+
+*you can align horizontally and vertically when there is eb=nough space as column taking
+small space
+*you can align horizontally bt justify-contetn property
