@@ -43,4 +43,11 @@ small space
 *importantpoint:
 if you give the column  the  row-start/end  there is  issue that it will suppose that column start from line 1  then we have to specifically gives it thr column start positon as we give to incrase the eight digit height
 
+--------------------------shorthand way-----------------------
+
 *to avoid writing grid-colum start and grid-column-end again and again use new propert called grid-column adn define start and forward slah and end values respectively
+
+
+*You can also use span after forward slah like this
+*this will enable you to forget counting of grid lines
+*instead you can do is to define how many intems this will cover including itself(including is important word here)
