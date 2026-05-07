@@ -28,4 +28,5 @@
 
 *you can align horizontally and vertically when there is eb=nough space as column taking
 small space
-*you can align horizontally bt justify-contetn property
+*you can align horizontally by justify-content property
+*you can align vertically by align-content property
