@@ -39,3 +39,6 @@ small space
 *here we also have change the order of the grid item as well through grid-row-start/end property as well
 
 *you can define thr both rows and columns start and end to desing different type of layout like this.
+
+*importantpoint:
+if you give the column  the  row-start/end  there is  issue that it will suppose that column start from line 1  then we have to specifically gives it thr column start positon as we give to incrase the eight digit height
