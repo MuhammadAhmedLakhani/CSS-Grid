@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns:repeat(5,1fr);
     grid-template-rows: repeat(5,100px); 
-    /* gap: 20px; */
+    gap: 20px;
     place-content: center;
 
 }
@@ -25,29 +25,22 @@
 
 #second {
     grid-column-start: 3;
-    grid-column-end: 6;
+    grid-column-end: 5;
 }
 #third {
     grid-column-start: 2;
     grid-row-start: 1;
 }
 
-
-
-
-
-
-
-@media screen and (max-width:1000px) {
-
-    .pappa {
-        grid-template-columns:1fr 1fr;
-    }
-    
+#five {
+    grid-column-start: 1;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:4;
 }
 
-@media screen and (max-width:576px) {
-    .pappa {
-        grid-template-columns:1fr;
-    }
+#six {
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
+
