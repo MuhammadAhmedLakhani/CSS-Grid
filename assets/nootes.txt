@@ -38,4 +38,4 @@ small space
 *basically grid has line  of each column start and column end
 *here we also have change the order of the grid item as well through grid-row-start/end property as well
 
-*you can define thr both rows and columns start and end to desing different type of layout like this
+*you can define thr both rows and columns start and end to desing different type of layout like this.
