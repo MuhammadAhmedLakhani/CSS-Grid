@@ -19,7 +19,7 @@ body {
     display: grid;
     /* grid-template-columns: repeat(3, auto); */
     grid-template-rows: repeat(8, 1fr);
-    grid-template-areas: 'Hammad Hammad Hammad Ahmed Maliha Saad Saad ';
+    grid-template-areas: 'Ahmed Hammad Hammad Hammad Saad Saad Saad Saad Saad';
 }
 
 .bachay {
@@ -39,9 +39,6 @@ body {
     grid-area: Ahmed;
 }
 
-#three{
-    grid-area: Maliha;
-}
 
 #four {
     grid-area: Saad;
