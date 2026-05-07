@@ -51,3 +51,5 @@ if you give the column  the  row-start/end  there is  issue that it will suppose
 *You can also use span after forward slah like this
 *this will enable you to forget counting of grid lines
 *instead you can do is to define how many intems this will cover including itself(including is important word here)
+
+-changing both horizontal and vertical by shorthand mthod
