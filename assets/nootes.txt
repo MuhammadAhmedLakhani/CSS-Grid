@@ -65,3 +65,10 @@ if you give the column  the  row-start/end  there is  issue that it will suppose
 ----Dots:
 
 You can place dots that means that later remaiing elements wil auomatically comes in first row as additional columns
+
+
+-You can also use grid-area property as a shorthand for the grid-column and grid-row properties
+
+-the values are in order as follows:
+
+grid-area:row start / column start / row end / column end

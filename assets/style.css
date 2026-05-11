@@ -14,12 +14,11 @@ body {
 
 .pappa {
     width: 100vw;
-    height: 80vh;
+    min-height: 80vh;
     border: 10px solid #000;
     display: grid;
-    /* grid-template-columns: repeat(3, auto); */
-    /* grid-template-rows: repeat(8, 1fr); */
-    grid-template-areas: 'Sufyan Jawwad Jawwad' 'Sufyan Jawwad Jawwad' 'Sufyan Usman .';
+    grid-template-columns: repeat(2, auto);
+
 }
 
 .bachay {
@@ -32,14 +31,14 @@ body {
 
 
 #one {
-    grid-area:Sufyan;
+    grid-area:1/1/4/4;
+    /* grid-column:1 / span 3;
+    grid-row:1 / span 3 */
 }
 
 #two {
-    grid-area:Jawwad;
 }
 
 
 #three {
-    grid-area: Usman;
-}
+} 
