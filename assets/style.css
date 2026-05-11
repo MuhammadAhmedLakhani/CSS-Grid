@@ -18,7 +18,7 @@ body {
     border: 10px solid #000;
     display: grid;
     /* grid-template-columns: repeat(2, auto); */
-    grid-template-areas: 'Ahmed Ahmed Ahmed Ahmed Bonus';
+    grid-template-areas: 'Ahmed Ahmed Ahmed Ahmed Bonus Hassan';
 
 }
 
@@ -44,4 +44,6 @@ body {
 
 
 #three {
+    grid-area:Hassan;
+    grid-row:1 / span 3;
 } 
