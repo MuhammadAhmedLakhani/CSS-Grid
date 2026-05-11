@@ -17,7 +17,8 @@ body {
     min-height: 80vh;
     border: 10px solid #000;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    /* grid-template-columns: repeat(2, auto); */
+    grid-template-areas: 'Ahmed Ahmed Ahmed Ahmed';
 
 }
 
@@ -31,9 +32,8 @@ body {
 
 
 #one {
-    grid-area:1/1/4/4;
-    /* grid-column:1 / span 3;
-    grid-row:1 / span 3 */
+    grid-area:Ahmed;
+    grid-column:1 /  5;
 }
 
 #two {
