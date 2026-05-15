@@ -17,9 +17,9 @@ body {
     height: 80vh;
     border: 10px solid #000;
     display: grid;
-    /* grid-template-columns: repeat(3, auto); */
-    /* grid-template-rows: repeat(8, 1fr); */
-    grid-template-areas: 'Sufyan Jawwad Jawwad' 'Sufyan Usman .' '. Usman .' 'Izyan Izyan Izyan' '. Hasan Hasan''Arbab Arbab Arbab';
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+    /* grid-template-areas: 'Sufyan Jawwad Jawwad' 'Sufyan Usman Izyan' 'Sufyan Hasan Hasan'; */
 }
 
 .bachay {
@@ -30,28 +30,9 @@ body {
     border: 2px solid blue;
 }
 
-
 #one {
-    grid-area:Sufyan;
-}
-
-#two {
-    grid-area:Jawwad;
-}
-
-
-#three {
-    grid-area: Usman;
-}
-
-#seven {
-    grid-area:Izyan;
-}
-
-#nine {
-    grid-area:Hasan
-}
-
-#ten {
-    grid-area:Arbab
+    width:100px;
+    height: 100px;
+    justify-self:center;
+    /* align-self: flex-end; */
 }
