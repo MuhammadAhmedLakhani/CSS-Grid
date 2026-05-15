@@ -19,14 +19,9 @@ body {
     display: grid;
     /* grid-template-columns: repeat(3, auto); */
     /* grid-template-rows: repeat(8, 1fr); */
-    grid-template-areas: 'Sufyan Usman Jawwad .' 'Sufyan Usman Jawwad .' 'Sufyan Usman Jawwad .';
+    grid-template-areas: 'Sufyan Usman Usman . Jawwad Jawwad';
 }
-/* 
-                             1      2       2                  
-                             1      2       2   
-                             1      3       4
 
-                              */
 .bachay {
     display: flex;
     justify-content: center;
