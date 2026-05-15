@@ -33,6 +33,8 @@ body {
 #one {
     width:100px;
     height: 100px;
-    justify-self:center;
-    /* align-self: flex-end; */
+    /* justify-self:center;
+    align-self: flex-end; */
+    place-self:flex-end center;
+           /*  align-self justify-self  */
 }
